@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+.albert-sans {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.loginBox {
+  background-color: #f1faee;
+}
+
+.box {
+  width: 33vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #a8dadc;
+  border-radius: 7px;
+}
+
+.loginBox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #welcomeMsg {
+  text-align: center;
+} */
+
+.box h1 {
+  margin-top: 10px;
+
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.usernameBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.usernameBox label {
+  font-size: 1.5rem;
+}
+
+#email {
+  font-size: 2rem;
+  border-radius: 7px;
+}
+
+.passwordBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.passwordBox label {
+  font-size: 1.5rem;
+}
+
+#pass {
+  font-size: 2rem;
+  border-radius: 7px;
+}
+
+.loginBtnBox {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#loginBtn {
+  padding: 0.4rem 10.5rem;
+  font-size: 1.5rem;
+  background-color: #e63946;
+}
+
+#signUpLink {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#googleLogo {
+  width: 30px;
+}
+
+#googleLoginBtn {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.2rem 9rem;
+}
+
+.googleLoginBtnBox {
+  margin-top: 10px;
+}

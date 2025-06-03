@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="loginBox">
+      <div class="box">
+        <h1 id="welcomeMsg">Welcome 👋</h1>
+
+        <form action="" class="albert-sans">
+          <div class="usernameBox">
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" />
+          </div>
+
+          <div class="passwordBox">
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass" />
+          </div>
+
+          <div class="loginBtnBox">
+            <button type="submit" id="loginBtn">Sign in</button>
+          </div>
+        </form>
+
+        <p id="signUpLink">Don't have an account <a href="#">Sign Up</a></p>
+
+        <hr />
+
+        <div class="googleLoginBtnBox">
+          <button id="googleLoginBtn">
+            <span>Continue with</span>
+            <img
+              id="googleLogo"
+              src="./assets/icons8-google-logo-48.png"
+              alt="google logo"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
