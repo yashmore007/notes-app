@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section class="login">
+      <div class="box">
+        <h1 id="appName">ZenWrite</h1>
+        <p id="appDescription">A quite place for loud ideas</p>
+
+        <form action="" id="myForm">
+          <div class="emailItems">
+            <img src="../assets/emailicon.svg" alt="email icon" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <div class="passItems">
+            <img src="../assets/passicon.svg" alt="passward Icon" />
+            <input
+              type="password"
+              name="passward"
+              id="pass"
+              placeholder="Passward"
+              required
+            />
+          </div>
+
+          <div class="rememberMeBox">
+            <div>
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox">Remember me</label>
+            </div>
+            <a href="#">Forgot Passward?</a>
+          </div>
+
+          <div class="loginBtnBox">
+            <button type="submit" id="loginBtn">Log in to Zenwrite</button>
+          </div>
+        </form>
+        <div class="divider">
+          <span>or</span>
+        </div>
+
+        <div id="googleLoginBox">
+          <button id="googleLoginBtn">
+            <img
+              id="googleImg"
+              src="../assets/googleLogo.png"
+              alt="google logo"
+            />continue with google
+          </button>
+        </div>
+
+        <p id="SignUp">Didn't have an account? <a href="#">Sign Up</a></p>
+      </div>
+    </section>
+    <script src="login.js"></script>
+  </body>
+</html>

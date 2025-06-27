@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signUp.css" />
+  </head>
+  <body>
+    <section class="signUp">
+      <div class="boxSignUp">
+        <h1 id="appName">ZenWrite</h1>
+        <p id="appDescription">A quite place for loud ideas</p>
+
+        <form action="" id="signUpForm">
+          <div class="unsernameBox">
+            <img
+              id="userNameLogo"
+              src="../assets/user.png"
+              alt="username logo"
+            />
+            <input
+              type="text"
+              name="text"
+              id="username"
+              placeholder="Enter your full Name"
+              required
+            />
+          </div>
+
+          <div class="emailItems">
+            <img src="../assets/emailicon.svg" alt="email icon" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <div class="passItems">
+            <img src="../assets/passicon.svg" alt="passward Icon" />
+            <input
+              type="password"
+              name="passward"
+              id="pass"
+              placeholder="Enter passward"
+              required
+            />
+          </div>
+
+          <div class="passItems">
+            <img src="../assets/passicon.svg" alt="passward Icon" />
+            <input
+              type="password"
+              name="passward"
+              id="confirmPass"
+              placeholder="Confirm passward"
+              required
+            />
+          </div>
+
+          <div class="rememberMeBox">
+            <div>
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox">I agree to the terms and conditions</label>
+            </div>
+          </div>
+
+          <div class="loginBtnBox">
+            <button type="submit" id="loginBtn">Sign Up</button>
+          </div>
+
+          <div class="divider">
+            <span>or sign up with</span>
+          </div>
+
+          <div id="googleLoginBox">
+            <button id="googleLoginBtn">
+              <img
+                id="googleImg"
+                src="../assets/googleLogo.png"
+                alt="google logo"
+              />google
+            </button>
+          </div>
+        </form>
+        <p id="SignUp">
+          alread have an account?<a href="../login/login.html">Log in</a>
+        </p>
+      </div>
+    </section>
+    <script src="signUp.js"></script>
+  </body>
+</html>

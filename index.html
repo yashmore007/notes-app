@@ -3,60 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome to ZenWrite</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <section class="loginBox">
-      <div class="box">
-        <h1 id="welcomeMsg">Welcome 👋</h1>
-
-        <form action="" class="albert-sans">
-          <div class="usernameBox">
-            <label for="email">Email:</label>
-            <input type="email" name="Email" id="email" />
-          </div>
-
-          <div class="passwordBox">
-            <label for="pass">Password:</label>
-            <input type="password" name="password" id="pass" />
-          </div>
-
-          <div class="loginBtnBox">
-            <button type="submit" id="loginBtn">Sign in</button>
-          </div>
-        </form>
-
-        <p id="signUpLink">Don't have an account <a href="#">Sign Up</a></p>
-
-        <hr />
-
-        <div class="googleLoginBtnBox">
-          <button id="googleLoginBtn">
-            <span>Continue with</span>
-            <img
-              id="googleLogo"
-              src="./assets/icons8-google-logo-48.png"
-              alt="google logo"
-            />
-          </button>
+    <section class="hero">
+      <div class="container">
+        <h1 id="appName">ZenWrite</h1>
+        <h2 id="tagline">“A quiet space for loud ideas.”</h2>
+        <h3 id="valueProp">
+          Capture your thoughts in a calm, distraction-free space.
+        </h3>
+        <div class="btn">
+          <button id="SignUp">Sign Up</button>
+          <button id="SignIn">Sign In</button>
         </div>
       </div>
     </section>
 
+    <section class="coreFeatures">
+      <h2 class="featuresHeading">Core Features</h2>
+      <div class="box">
+        <div class="features">
+          <span class="emoji">✏️</span> Rich Text Editor
+        </div>
+        <div class="features">
+          <span class="emoji">🗂️</span> Organize with Tags
+        </div>
+        <div class="features"><span class="emoji">🔍</span> Instant Search</div>
+        <div class="features">
+          <span class="emoji">🌙</span> Light & Dark Mode
+        </div>
+        <div class="features"><span class="emoji">💾</span> Auto Save</div>
+      </div>
+    </section>
+
+    <section class="whyChooseUs">
+      <div id="bulletPoints">
+        <h2>Why Choose Us?</h2>
+        <ul>
+          <li>100% free</li>
+          <li>Simple and Fast</li>
+          <li>Clean and Minimal UI</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div id="footerContent">
+        <img src="assets/copyright.png" alt="copyright symbol" />
+        <span>Made by Yash</span>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

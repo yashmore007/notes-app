@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.emailItems img,
+.unsernameBox img {
+  width: 30px;
+}
+
+.passItems img {
+  width: 30px;
+}
+
+.login {
+  background-color: #d0d8f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp {
+  background-color: #d0d8f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 32rem;
+  width: 31rem;
+  background-color: #ffffff;
+  border-radius: 19px;
+}
+
+.boxSignUp {
+  height: 40rem;
+  width: 31rem;
+  background-color: #ffffff;
+  border-radius: 19px;
+}
+
+#appName,
+#appDescription {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#appName {
+  font-size: 2.4rem;
+}
+
+#appDescription {
+  font-size: 1.5rem;
+}
+
+.emailItems,
+.passItems,
+.unsernameBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.emailItems img,
+.passItems img,
+.unsernameBox img {
+  position: absolute;
+  left: 40px;
+  color: #888;
+  pointer-events: none;
+}
+
+#email,
+#pass,
+#username,
+#confirmPass {
+  font-size: 1.4rem;
+  width: 73%;
+  padding: 10px 10px 10px 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-left: 2rem;
+}
+
+.rememberMeBox {
+  display: flex;
+  justify-content: space-between;
+}
+.rememberMeBox div {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.rememberMeBox div label {
+  margin-left: 6px;
+}
+
+.rememberMeBox a {
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+
+.loginBtnBox {
+  margin-top: 21px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+
+#loginBtn {
+  padding: 8px 9rem;
+  font-size: larger;
+  border-radius: 7px;
+  background-color: #9ab4de;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #888;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  width: 13rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.divider::before {
+  margin-right: 10px;
+}
+
+.divider::after {
+  margin-left: 10px;
+}
+
+#googleLoginBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#googleLoginBtn {
+  display: flex;
+  align-items: center;
+  padding: 8px 8rem;
+  font-size: larger;
+  border-radius: 7px;
+  background-color: white;
+}
+
+#SignUp {
+  margin-top: 25px;
+  text-align: center;
+  font-size: larger;
+}
+
+#googleImg {
+  width: 25px;
+  margin-right: 5px;
+}
+
+#checkbox {
+  font-size: 19px;
+}

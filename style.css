@@ -1,116 +1,157 @@
 * {
-  padding: 0;
   margin: 0;
-  /* font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal; */
+  padding: 0;
 }
 
-.albert-sans {
-  font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
-
-  font-style: normal;
+.hero {
+  background: url("assets/background.png") no-repeat center center/cover;
+  height: 94vh;
+  position: relative;
+}
+.coreFeatures {
+  background: url("assets/background.png") no-repeat center center/cover;
+  height: 100vh;
+}
+.whyChooseUs {
+  background: url("assets/background.png") no-repeat center center/cover;
 }
 
-.loginBox {
-  background-color: #f1faee;
+.container {
+  position: absolute;
+  top: 11rem;
+  left: 8rem;
+}
+#appName {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+#tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.8rem;
+}
+
+#valueProp {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+#SignUp,
+#SignIn {
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s ease;
+}
+
+#SignUp:hover,
+#SignIn:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 1.5rem;
+}
+
+.emoji {
+  display: inline-block;
+  font-size: 2rem;
+  transition: transform 0.6s ease;
+}
+
+.emoji:hover {
+  animation: lean 0.6s ease forwards;
+  cursor: pointer;
+}
+
+@keyframes lean {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .box {
-  width: 33vw;
-  height: 62vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  background-color: #a8dadc;
-  border-radius: 23px;
-}
-
-.loginBox {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  height: 94vh;
 }
 
-/* #welcomeMsg {
-  text-align: center;
-} */
+.features {
+  margin: 20px 5px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 16rem;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  backdrop-filter: blur(4px);
+}
 
-.box h1 {
-  margin-top: 10px;
-
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.featuresHeading {
   font-size: 2rem;
+  color: #1a1a1a;
+  /* margin-top: 0rem; */
+  text-align: center;
+  position: relative;
+  top: 3rem;
 }
 
-.usernameBox {
+.whyChooseUs {
+  height: 50vh;
   display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.usernameBox label {
-  font-size: 1.5rem;
-}
-
-#email {
-  font-size: 1.5rem;
-  border-radius: 7px;
-  padding: 7px 4px;
-}
-
-.passwordBox {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.passwordBox label {
-  font-size: 1.5rem;
-}
-
-#pass {
-  font-size: 1.5rem;
-  border-radius: 7px;
-  padding: 7px 4px;
-}
-
-.loginBtnBox {
-  display: flex;
-  /* align-items: center; */
   justify-content: center;
-  margin-top: 20px;
-}
-
-#loginBtn {
-  padding: 0.4rem 10.5rem;
-  font-size: 1.5rem;
-  background-color: #e63946;
-}
-
-#signUpLink {
-  font-size: 1.5rem;
-  margin-top: 10px;
-}
-
-#googleLogo {
-  width: 30px;
-}
-
-#googleLoginBtn {
-  /* text-align: center; */
-  display: flex;
   align-items: center;
-  font-size: 1rem;
-  padding: 0.2rem 9rem;
 }
 
-.googleLoginBtnBox {
-  margin-top: 10px;
+#bulletPoints ul li {
+  margin: 30px 0px;
+  padding: 10px;
+  background-color: #c0cece;
+  font-size: larger;
+  border-radius: 8px;
+}
+
+#footerContent {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  /* margin-top: 10px; */
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  margin-top: 7px;
+}
+footer span {
+  font-size: large;
+  margin-right: 20px;
+  margin-top: 7px;
+}
+
+footer {
+  background-color: rgb(161, 161, 161);
 }
